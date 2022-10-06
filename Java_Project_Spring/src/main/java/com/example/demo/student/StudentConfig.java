@@ -15,14 +15,12 @@ public class StudentConfig {
         return args -> {
             Student mariam = new Student(
                     "Mariam", "mariam.jamal@gmail.com",
-                    18,
                     LocalDate.of(2000, Month.FEBRUARY, 5)
             );
 
 
         Student alex = new Student(
                 "Alex", "alex@gmail.com",
-                18,
                 LocalDate.of(2004, Month.FEBRUARY, 5)
         );
         repository.saveAll(
